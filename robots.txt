@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://soumarcondes.github.io/rmarc/sitemap.xml

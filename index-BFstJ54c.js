@@ -10805,7 +10805,6 @@ y.createElement)(`svg`, {
     height: t,
     stroke: e,
     strokeWidth: r ? Number(n) * 24 / Number(t) : n,
-    className: Kt(`lucide`, i),
     ...s
 }, [...o.map( ([e,t]) => (0,
 y.createElement)(e, t)), ...Array.isArray(a) ? a : [a]]))
@@ -10815,7 +10814,6 @@ y.createElement)(e, t)), ...Array.isArray(a) ? a : [a]]))
     y.createElement)(Jt, {
         ref: i,
         iconNode: t,
-        className: Kt(`lucide-${Gt(e)}`, n),
         ...r
     }));
     return n.displayName = `${e}`,
@@ -10838,9 +10836,6 @@ y.createElement)(e, t)), ...Array.isArray(a) ? a : [a]]))
   , Zt = G(`ArrowUpRight`, [[`path`, {
     d: `M7 7h10v10`,
     key: `1tivn9`
-}], [`path`, {
-    d: `M7 17 17 7`,
-    key: `1vkiza`
 }]])
   , Qt = G(`BadgeCheck`, [[`path`, {
     d: `M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z`,
@@ -19333,12 +19328,6 @@ function Id({axios: e, getSocket: t, appId: n, serverUrl: r, token: i}) {
         ,
         getWhatsAppConnectURL: e => {
             let t = `${r}/api/apps/${n}/agents/${encodeURIComponent(e)}/whatsapp`
-              , a = i ?? jd();
-            return a ? `${t}?token=${a}` : t
-        }
-        ,
-        getTelegramConnectURL: e => {
-            let t = `${r}/api/apps/${n}/agents/${encodeURIComponent(e)}/telegram`
               , a = i ?? jd();
             return a ? `${t}?token=${a}` : t
         }
@@ -28552,10 +28541,10 @@ var hw = [{
 }, {
     label: `Projetos`,
     href: `#projetos`
-}, {
+}/* , {
     label: `Orçamento`,
     href: `#orcamento`
-}, {
+} */, {
     label: `Contato`,
     href: `#contato`
 }];
@@ -28811,12 +28800,12 @@ function _w() {
                             }), `Curitiba, PR`]
                         }), (0,
                         R.jsxs)(`div`, {
-                            className: `flex items-center gap-2.5 text-muted-foreground`,
+                            /* className: `flex items-center gap-2.5 text-muted-foreground`,
                             children: [(0,
                             R.jsx)(tn, {
                                 size: 16,
                                 className: `text-primary`
-                            }), `Residencial · Comercial · Industrial`]
+                            }), `Residencial · Comercial · Industrial`] */
                         })]
                     })]
                 }), (0,
@@ -53683,56 +53672,49 @@ var iF = [{
     role: `Casa alto padrão em condomínio fechado`,
     desc: `Casa alto padrão em condomínio fechado no bairro Bacacheri. Estrutura em concreto armado, vãos amplos e acabamento contemporâneo.`,
     img: `https://tasconstrutora.com.br/wp-content/uploads/2015/08/IMGAME-FINAL2.jpg`,
-    tag: `Curitiba, PR`,
-    link: `https://tasconstrutora.com.br/residencial-boulevard-bacacheri/`
+    tag: `Curitiba, PR`
 }, {
     name: `Condomínio Boulevard Versalhes`,
     type: `Condomínio · Multifamiliar`,
     role: `Arquitetura moderna e contemporânea`,
     desc: `Condomínio residencial com casas de alto padrão. Arquitetura que conjuga o moderno com o contemporâneo.`,
     img: `https://tasconstrutora.com.br/wp-content/uploads/2015/09/casa.jpg`,
-    tag: `Curitiba, PR`,
-    link: `https://tasconstrutora.com.br/condominio-residencial-boulevard-versalhes/`
+    tag: `Curitiba, PR`
 }, {
     name: `Condomínio Residencial Green Life`,
     type: `Residencial · Alto padrão`,
     role: `Casa de alto padrão · 3 suítes`,
     desc: `Casa de alto padrão com 3 suítes. Vãos generosos e integração entre ambientes internos e externos.`,
     img: `https://tasconstrutora.com.br/wp-content/uploads/2015/09/RT14.jpg`,
-    tag: `Curitiba, PR`,
-    link: `https://tasconstrutora.com.br/condominio-residencial-green-life/`
+    tag: `Curitiba, PR`
 }, {
     name: `Residencial Privilège`,
     type: `Condomínio fechado`,
     role: `Condomínio de alto padrão`,
     desc: `Condomínio com unidades de alto padrão. Dimensionamento estrutural e acompanhamento da execução dentro do prazo e orçamento.`,
     img: `https://tasconstrutora.com.br/wp-content/uploads/2015/08/RTM1.jpg`,
-    tag: `Curitiba, PR`,
-    link: `https://tasconstrutora.com.br/residencial-privilege-sinta-o-privilegio-de-ser-unico/`
+    tag: `Curitiba, PR`
 }, {
     name: `Maria Valente Residencial`,
     type: `Vertical · Apartamentos`,
     role: `Edifício · Apartamentos`,
     desc: `Edifício residencial com apartamentos de 2 ou 3 quartos, sendo uma suíte. Estrutura em concreto armado e lajes.`,
     img: `https://tasconstrutora.com.br/wp-content/uploads/2015/08/01-Perspectiva-3.jpg`,
-    tag: `Cajuru, PR`,
-    link: `https://tasconstrutora.com.br/maria-valente-residencial/`
+    tag: `Cajuru, PR`
 }, {
     name: `Condomínio Parque Embú`,
     type: `Condomínio · Casas`,
     role: `Casas não geminadas em condomínio`,
     desc: `Condomínio de casas não geminadas em condomínio fechado em Colombo. Estrutura, fundações e acompanhamento completo.`,
     img: `https://tasconstrutora.com.br/wp-content/uploads/2015/09/COLOMBO-327.jpg`,
-    tag: `Colombo, PR`,
-    link: `https://tasconstrutora.com.br/condominio-residencial-parque-embu/`
+    tag: `Colombo, PR`
 }, {
     name: `Residência de Campo`,
     type: `Residencial · Campo`,
     role: `Residência · São José dos Pinhais`,
     desc: `Residência de campo com estrutura em concreto e integração paisagística. Projeto executado com foco em durabilidade e conforto.`,
     img: `https://www.tasengenharia.com/images/chacara-(1).jpg?crc=4081485798`,
-    tag: `São José dos Pinhais, PR`,
-    link: `http://www.tasengenharia.com/residencia-de-campo-sao-jose-dos-pinhais.html`
+    tag: `São José dos Pinhais, PR`
 }, {
     name: `Condomínio Santa Felicidade`,
     type: `Condomínio · Residencial`,
@@ -53740,7 +53722,6 @@ var iF = [{
     desc: `Condomínio residencial no bairro Santa Felicidade. Execução com mão de obra qualificada e controle de qualidade em todas as etapas.`,
     img: `https://www.tasengenharia.com/images/013.jpg?crc=496061125`,
     tag: `Santa Felicidade, PR`,
-    link: `http://www.tasengenharia.com/condominio-santa-felicidade.html`
 }, {
     name: `Residencial Harmony Village`,
     type: `Residencial · Condomínio`,
@@ -53748,7 +53729,6 @@ var iF = [{
     desc: `Residencial em condomínio com acompanhamento técnico completo, do projeto à entrega das chaves.`,
     img: `https://www.tasengenharia.com/images/fachada%201.jpg?crc=4205323501`,
     tag: `Curitiba, PR`,
-    link: `http://www.tasengenharia.com/residencial-harmony-village.html`
 }]
   , aF = [`Boulevard Bacacheri 1–4`, `Residencial Versailles 1–4`, `Boulevard Privillege 1–8`, `Condomínio Jardim América`, `Jardim Botânico`];
 function oF() {
@@ -53847,7 +53827,6 @@ function oF() {
                                     children: e.name
                                 }), (0,
                                 R.jsx)(`span`, {
-                                    className: `flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition`,
                                     children: (0,
                                     R.jsx)(Zt, {
                                         size: 16
@@ -54005,7 +53984,7 @@ function cF() {
         })]
     })
 }
-var lF = [{
+var lF = [/* {
     quote: `Acompanhou cada etapa da obra com transparência. Cumpriu o prazo e a qualidade combinada — entregou mais do que prometeu.`,
     name: `Mariana e Rodrigo`,
     project: `Residência · Boulevard Bacacheri`
@@ -54017,27 +53996,26 @@ var lF = [{
     quote: `Reforma de cobertura com reforço estrutural feita sem dor de cabeça. Comunicação direta, sem surpresas no meio do caminho.`,
     name: `Paulo Vinícius`,
     project: `Reforma · Santa Felicidade`
-}];
+} */];
 function uF() {
     return (0,
     R.jsx)(`section`, {
-        className: `relative py-28 sm:py-36 grain`,
-        children: (0,
+/*         className: `relative py-28 sm:py-36 grain`,
+ */        children: (0,
         R.jsxs)(`div`, {
-            className: `mx-auto max-w-7xl px-5 sm:px-8`,
-            children: [(0,
+/*             className: `mx-auto max-w-7xl px-5 sm:px-8`,
+ */            children: [(0,
             R.jsxs)(vw, {
                 children: [(0,
                 R.jsxs)(`div`, {
                     className: `flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-primary`,
                     children: [(0,
                     R.jsx)(`span`, {
-                        className: `h-px w-8 bg-primary`
-                    }), `Quem construiu comigo`]
-                }), (0,
+                        className: `/* h-px w-8 bg-primary */`
+                    }), /* `Quem construiu comigo` */]}), (0,
                 R.jsx)(`h2`, {
-                    className: `mt-5 font-display font-bold text-3xl sm:text-5xl tracking-tight max-w-2xl text-balance`,
-                    children: `Obras que viraram confiança.`
+/*                     className: `mt-5 font-display font-bold text-3xl sm:text-5xl tracking-tight max-w-2xl text-balance`,
+                    children: `Obras que viraram confiança.` */
                 })]
             }), (0,
             R.jsx)(`div`, {
@@ -54090,35 +54068,35 @@ function uF() {
 }
 var dF = [{
     id: `res`,
-    label: `Residencial`,
+    label: ``, /* Residencial */
     icon: hn,
     fator: [1, 1]
 }, {
     id: `com`,
-    label: `Comercial`,
+    label: ``,/* Comercial  */
     icon: tn,
     fator: [1.1, 1.15]
 }, {
     id: `ref`,
-    label: `Reforma`,
+    label: ``,/* Reforma */
     icon: pn,
     fator: [.45, .65]
 }]
   , fF = [{
     id: `eco`,
-    label: `Econômico`,
+    label: ``, /* Econômico */
     rate: [1800, 2300]
 }, {
     id: `med`,
-    label: `Médio`,
+    label: ``,/*Médio  */
     rate: [2300, 3200]
 }, {
     id: `alt`,
-    label: `Alto padrão`,
+    label: ``,/* Alto padrão */
     rate: [3200, 4800]
 }, {
     id: `lux`,
-    label: `Luxo`,
+    label: ``,/* Luxo */
     rate: [4800, 7e3]
 }]
   , pF = e => e.toLocaleString(`pt-BR`, {
@@ -54146,60 +54124,59 @@ function mF() {
     return (0,
     R.jsxs)(`section`, {
         id: `orcamento`,
-        className: `relative py-28 sm:py-36 overflow-hidden`,
-        children: [(0,
+/*         className: `relative py-28 sm:py-36 overflow-hidden`,
+ */        children: [(0,
         R.jsx)(`div`, {
-            className: `pointer-events-none absolute inset-0`,
-            children: (0,
+/*             className: `pointer-events-none absolute inset-0`,
+ */            children: (0,
             R.jsx)(`div`, {
-                className: `absolute top-1/4 left-1/3 h-72 w-72 rounded-full bg-primary/10 blur-[120px]`
-            })
+/*                 className: `absolute top-1/4 left-1/3 h-72 w-72 rounded-full bg-primary/10 blur-[120px]`
+ */            })
         }), (0,
         R.jsxs)(`div`, {
-            className: `relative mx-auto max-w-5xl px-5 sm:px-8`,
+            /* className: `relative mx-auto max-w-5xl px-5 sm:px-8`, */
             children: [(0,
             R.jsxs)(vw, {
                 children: [(0,
                 R.jsxs)(`div`, {
-                    className: `flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-primary`,
-                    children: [(0,
+/*                     className: `flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-primary`,
+ */                    children: [(0,
                     R.jsx)(`span`, {
-                        className: `h-px w-8 bg-primary`
-                    }), `Estimativa de investimento`]
-                }), (0,
+/*                         className: `h-px w-8 bg-primary`x
+ */                    }), /* `Estimativa de investimento` */]}), (0,
                 R.jsx)(`h2`, {
-                    className: `mt-5 font-display font-bold text-3xl sm:text-5xl tracking-tight max-w-2xl text-balance`,
-                    children: `Quanto custa construir? Tenha uma ideia em segundos.`
+/*                     className: `mt-5 font-display font-bold text-3xl sm:text-5xl tracking-tight max-w-2xl text-balance`,
+                    children: `Quanto custa construir? Tenha uma ideia em segundos.` */
                 }), (0,
                 R.jsx)(`p`, {
-                    className: `mt-4 max-w-xl text-muted-foreground leading-relaxed`,
-                    children: `Valores de referência para Curitiba e região. A estimativa é aproximada — o orçamento definitivo sai após a visita técnica e o detalhamento do projeto.`
+/*                     className: `mt-4 max-w-xl text-muted-foreground leading-relaxed`,
+                    children: `Valores de referência para Curitiba e região. A estimativa é aproximada — o orçamento definitivo sai após a visita técnica e o detalhamento do projeto.` */
                 })]
             }), (0,
             R.jsxs)(`div`, {
-                className: `mt-12 grid lg:grid-cols-2 gap-6`,
+                /* className: `mt-12 grid lg:grid-cols-2 gap-6`, */
                 children: [(0,
                 R.jsx)(vw, {
                     className: `lg:col-span-1`,
                     children: (0,
                     R.jsxs)(`div`, {
-                        className: `rounded-2xl border border-border/70 bg-card/50 p-6 sm:p-8 space-y-7`,
+                        /* className: `rounded-2xl border border-border/70 bg-card/50 p-6 sm:p-8 space-y-7`, */
                         children: [(0,
                         R.jsxs)(`div`, {
                             children: [(0,
                             R.jsx)(`p`, {
-                                className: `text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3`,
-                                children: `Tipo de obra`
+/*                                 className: `text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3`,
+                                children: `Tipo de obra` */
                             }), (0,
                             R.jsx)(`div`, {
-                                className: `grid grid-cols-3 gap-2`,
+                                /* className: `grid grid-cols-3 gap-2`, */
                                 children: dF.map(n => (0,
                                 R.jsxs)(`button`, {
                                     onClick: () => t(n.id),
-                                    className: `flex flex-col items-center gap-1.5 rounded-xl border px-2 py-3 text-xs font-medium transition ${e === n.id ? `border-primary bg-primary/10 text-primary` : `border-border text-muted-foreground hover:text-foreground hover:border-muted-foreground/40`}`,
+                                    /* className: `flex flex-col items-center gap-1.5 rounded-xl border px-2 py-3 text-xs font-medium transition ${e === n.id ? `border-primary bg-primary/10 text-primary` : `border-border text-muted-foreground hover:text-foreground hover:border-muted-foreground/40`}`, */
                                     children: [(0,
                                     R.jsx)(n.icon, {
-                                        size: 18
+                                        /* size: 18 */
                                     }), n.label]
                                 }, n.id))
                             })]
@@ -54207,27 +54184,27 @@ function mF() {
                         R.jsxs)(`div`, {
                             children: [(0,
                             R.jsx)(`p`, {
-                                className: `text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3`,
-                                children: `Padrão de acabamento`
+/*                                 className: `text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3`,
+                                children: `Padrão de acabamento` */
                             }), (0,
                             R.jsx)(`div`, {
                                 className: `grid grid-cols-2 sm:grid-cols-4 gap-2`,
                                 children: fF.map(e => (0,
                                 R.jsx)(`button`, {
                                     onClick: () => r(e.id),
-                                    className: `rounded-xl border px-2 py-2.5 text-xs font-medium transition ${n === e.id ? `border-primary bg-primary/10 text-primary` : `border-border text-muted-foreground hover:text-foreground hover:border-muted-foreground/40`}`,
-                                    children: e.label
+/*                                     className: `rounded-xl border px-2 py-2.5 text-xs font-medium transition ${n === e.id ? `border-primary bg-primary/10 text-primary` : `border-border text-muted-foreground hover:text-foreground hover:border-muted-foreground/40`}`,
+                                    children: e.label */
                                 }, e.id))
                             })]
                         }), (0,
                         R.jsxs)(`div`, {
                             children: [(0,
                             R.jsxs)(`div`, {
-                                className: `flex items-baseline justify-between mb-3`,
-                                children: [(0,
+/*                                 className: `flex items-baseline justify-between mb-3`,
+ */                                children: [(0,
                                 R.jsx)(`p`, {
-                                    className: `text-xs uppercase tracking-[0.2em] text-muted-foreground`,
-                                    children: `Área construída`
+/*                                     className: `text-xs uppercase tracking-[0.2em] text-muted-foreground`,
+                                    children: `Área construída` */
                                 }), (0,
                                 R.jsxs)(`p`, {
                                     className: `font-display text-2xl font-bold gradient-text`,
@@ -54235,46 +54212,46 @@ function mF() {
                                 })]
                             }), (0,
                             R.jsx)(`input`, {
-                                type: `range`,
+                                /* type: `range`,
                                 min: 60,
-                                max: 600,
-                                step: 10,
-                                value: i,
-                                onChange: e => a(Number(e.target.value)),
-                                className: `w-full accent-[hsl(var(--primary))]`
-                            }), (0,
+                                max: 600, */
+/*                                 step: 10,
+                                value: i, */
+                                /* onChange: e => a(Number(e.target.value)), */
+/*                                 className: `w-full accent-[hsl(var(--primary))]`
+ */                            }), (0,
                             R.jsxs)(`div`, {
-                                className: `flex justify-between text-[10px] text-muted-foreground mt-1.5`,
-                                children: [(0,
+/*                                 className: `flex justify-between text-[10px] text-muted-foreground mt-1.5`,
+ */                                children: [(0,
+                                R.jsx)(`span`, /*  */{
+/*                                     children: `60 m²`
+ */                                }), (0,
                                 R.jsx)(`span`, {
-                                    children: `60 m²`
-                                }), (0,
-                                R.jsx)(`span`, {
-                                    children: `600 m²`
-                                })]
+/*                                     children: `600 m²`
+ */                                })]
                             })]
                         })]
                     })
                 }), (0,
                 R.jsx)(vw, {
                     delay: .1,
-                    className: `lg:col-span-1`,
-                    children: (0,
+/*                     className: `lg:col-span-1`,
+ */                    children: (0,
                     R.jsxs)(`div`, {
-                        className: `relative h-full rounded-2xl border border-border/70 bg-gradient-to-br from-card/60 to-secondary/30 p-6 sm:p-8 flex flex-col justify-between overflow-hidden`,
+/*                         className: `relative h-full rounded-2xl border border-border/70 bg-gradient-to-br from-card/60 to-secondary/30 p-6 sm:p-8 flex flex-col justify-between overflow-hidden`, */
                         children: [(0,
-                        R.jsx)(`div`, {
-                            className: `absolute -top-10 -right-10 h-40 w-40 rounded-full bg-primary/10 blur-3xl`
-                        }), (0,
+                        R.jsx)(`div`, /* div */ {
+/*                             className: `absolute -top-10 -right-10 h-40 w-40 rounded-full bg-primary/10 blur-3xl`
+ */                        }), (0,
                         R.jsxs)(`div`, {
-                            className: `relative`,
-                            children: [(0,
+/*                             className: `relative`,
+ */                            children: [(0,
                             R.jsxs)(`div`, {
-                                className: `flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-primary`,
-                                children: [(0,
+/*                                 className: `flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-primary`,
+ */                                children: [(0,
                                 R.jsx)(rn, {
                                     size: 14
-                                }), `Faixa estimada`]
+                                }), /* `Faixa estimada` */]
                             }), (0,
                             R.jsxs)(dw.div, {
                                 initial: {
@@ -54288,34 +54265,34 @@ function mF() {
                                 transition: {
                                     duration: .3
                                 },
-                                className: `mt-5`,
-                                children: [(0,
+/*                                 className: `mt-5`,
+ */                                children: [(0,
                                 R.jsx)(`p`, {
-                                    className: `font-display text-3xl sm:text-4xl font-bold leading-tight`,
-                                    children: pF(o)
+/*                                     className: `font-display text-3xl sm:text-4xl font-bold leading-tight`,
+ */                                    children: pF(o)
                                 }), (0,
                                 R.jsxs)(`p`, {
-                                    className: `font-display text-xl sm:text-2xl font-medium text-muted-foreground`,
-                                    children: [`até `, pF(s)]
+/*                                     className: `font-display text-xl sm:text-2xl font-medium text-muted-foreground`,
+ */                                    children: [/* `até `, */ pF(s)]
                                 })]
                             }, `${o}-${s}`), (0,
                             R.jsxs)(`p`, {
-                                className: `mt-4 text-sm text-muted-foreground leading-relaxed`,
-                                children: [`Referência de`, ` `, (0,
+/*                                 className: `mt-4 text-sm text-muted-foreground leading-relaxed`,
+ */                                children: [/* `Referência de`, */ ` `, (0,
                                 R.jsxs)(`span`, {
-                                    className: `text-foreground font-medium`,
-                                    children: [pF(Math.round(o / i)), `–`, pF(Math.round(s / i)), `/m²`]
-                                }), ` `, `para `, dF.find(t => t.id === e).label.toLowerCase(), ` `, fF.find(e => e.id === n).label.toLowerCase(), `.`]
+/*                                     className: `text-foreground font-medium`,
+ */                                    children: [pF(Math.round(o / i)), `–`, pF(Math.round(s / i))/* , `/m²` */]
+                                }), ` `/* , `para ` */, dF.find(t => t.id === e).label.toLowerCase(), ` `, fF.find(e => e.id === n).label.toLowerCase(), `.`]
                             })]
                         }), (0,
                         R.jsxs)(`a`, {
-                            href: `#contato`,
-                            className: `relative mt-8 group inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3.5 font-medium text-primary-foreground hover:brightness-110 transition shadow-lg shadow-primary/20`,
-                            children: [`Solicitar orçamento detalhado`, (0,
+/*                             href: `#contato`, */
+/*                             className: `relative mt-8 group inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3.5 font-medium text-primary-foreground hover:brightness-110 transition shadow-lg shadow-primary/20`,
+ */                            children: [/* `Solicitar orçamento detalhado` */, (0,
                             R.jsx)(Xt, {
                                 size: 16,
-                                className: `group-hover:translate-x-0.5 transition-transform`
-                            })]
+/*                                 className: `group-hover:translate-x-0.5 transition-transform`
+ */                            })]
                         })]
                     })
                 })]
@@ -61605,7 +61582,7 @@ function XF() {
                     className: `mt-10 flex flex-wrap items-center justify-center gap-3`,
                     children: [(0,
                     R.jsxs)(`a`, {
-                        href: `https://wa.me/5541999999999`,
+                        href: `https://wa.me/5541997484460`,
                         target: `_blank`,
                         rel: `noreferrer`,
                         className: `group inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3.5 font-medium text-primary-foreground hover:brightness-110 transition shadow-lg shadow-primary/20`,
@@ -61617,16 +61594,6 @@ function XF() {
                             size: 16,
                             className: `group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform`
                         })]
-                    }), (0,
-                    R.jsxs)(`a`, {
-                        href: `https://br.linkedin.com/in/rafael-marcondes-55a34b1bb`,
-                        target: `_blank`,
-                        rel: `noreferrer`,
-                        className: `inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3.5 font-medium hover:bg-secondary/60 transition`,
-                        children: [(0,
-                        R.jsx)(yn, {
-                            size: 18
-                        }), `LinkedIn`]
                     })]
                 })
             }), (0,
@@ -61694,8 +61661,7 @@ function ZF() {
         R.jsx)(cF, {}), (0,
         R.jsx)(QP, {}), (0,
         R.jsx)(oF, {}), (0,
-        R.jsx)(uF, {}), (0,
-        R.jsx)(mF, {}), (0,
+        R.jsx)(uF, {}),  (0,
         R.jsx)(YF, {}), (0,
         R.jsx)(XF, {}), (0,
         R.jsx)(`footer`, {

@@ -53461,7 +53461,7 @@ function eF() {
                                 className: `relative aspect-[4/5] rounded-2xl overflow-hidden border border-border/70`,
                                 children: [(0,
                                 R.jsx)(`img`, {
-                                    src: `https://media.base44.com/images/public/6aa2bff515d443f0bb3c7875/e36ab2664_generated_image.png`,
+                                    src: `img/FotoSobre.jpg`,
                                     alt: `Engenheiro civil em obra`,
                                     className: `h-full w-full object-cover`
                                 }), (0,

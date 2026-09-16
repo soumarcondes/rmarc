@@ -61423,7 +61423,7 @@ function YF() {
                 }), (0,
                 R.jsx)(`p`, {
                     className: `mt-4 max-w-xl text-muted-foreground leading-relaxed`,
-                    children: `Obras executadas em condomínios e bairros de Curitiba e RMC. Cada ponto é um projeto real de TAS Engenharia com atuação técnica.`
+                    children: `Obras executadas em condomínios e bairros de Curitiba e RMC. Cada ponto é um projeto real com atuação técnica.`
                 })]
             }), (0,
             R.jsxs)(`div`, {

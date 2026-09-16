@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://soumarcondes.github.io/rmarc/sitemap.xml
+Sitemap: https://rmarcengenharia.com.br/sitemap.xml

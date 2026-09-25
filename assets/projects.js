@@ -7,12 +7,12 @@ var t = e(`ArrowUpRight`, [[`path`, {
     key: `1vkiza`
 }]])
   , n = {
-    mansion: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/a315d86f2_generated_image.png`,
+    mansion: `img/Greenlife.jpg`,
     building: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/0acfec5de_generated_image.png`,
     commercial: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/2fd6c10d4_generated_image.png`,
     industrial: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/fa5a6c519_generated_image.png`,
-    house2: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/640667c5c_generated_image.png`,
-    condo: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/5fad3825f_generated_image.png`,
+    house2: `img/Villagio.jpg`,
+    condo: `img/Privilege.jpg`,
     apartment: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/78eca218d_generated_image.png`,
     country: `https://media.base44.com/images/public/6aa2b4e48a6d301320179bea/a6a19fac4_generated_image.png`
 }
